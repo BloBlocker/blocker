@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blocker — Windows content filter</title>
+  <meta name="description" content="Blocker 1.0: free Windows utility that blocks adult content via two independent layers (hosts + DNS). VPN-resistant, offline, no data collection.">
+  <link rel="icon" type="image/png" href="assets/icon.png">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="#top">
+      <img src="assets/icon.png" alt="Blocker" width="28" height="28">
+      <span data-en="Blocker" data-ar="بلوكر">Blocker</span>
+    </a>
+    <nav>
+      <a href="#release" data-en="Release" data-ar="الإصدار">Release</a>
+      <a href="#why"     data-en="Why"      data-ar="لماذا">Why</a>
+      <a href="#how"     data-en="Usage"    data-ar="الاستخدام">Usage</a>
+      <a href="#faq"     data-en="FAQ"      data-ar="الأسئلة">FAQ</a>
+    </nav>
+    <button class="lang-btn" id="themeToggle" type="button">Dark</button>
+    <button class="lang-btn" id="langToggle" type="button">العربية</button>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero" id="hero">
+    <div class="hero-cols">
+      <div class="hero-text">
+        <p class="eyebrow" data-en="Windows utility · no account · no telemetry" data-ar="أداة ويندوز · بدون حساب · بدون تتبع">Windows utility · no account · no telemetry</p>
+        <h1 data-en="Stops adult content. Two layers, one click." data-ar="يحجب المحتوى الإباحي. طبقتان، ونقرة واحدة.">Stops adult content. Two layers, one click.</h1>
+        <p class="hero-sub" data-en="Blocker edits your Windows hosts file and points DNS at a family-safe filter. Because both run together, a VPN can slip past the DNS layer but the hosts layer still holds." data-ar="بلوكر يعدّل ملف hosts في ويندوز ويوجّه DNS إلى فلترة آمنة للعائلة. وحيث يعملان معاً، قد يتجاوز الـVPN طبقة DNS لكن طبقة hosts تبقى صامدة.">Blocker edits your Windows hosts file and points DNS at a family-safe filter. Because both run together, a VPN can slip past the DNS layer but the hosts layer still holds.</p>
+        <div class="cta">
+          <a class="btn" href="downloads/Blocker.zip" download data-en="Download Blocker.zip" data-ar="تحميل Blocker.zip">Download Blocker.zip</a>
+          <p class="meta"><span class="mono">Blocker.zip</span> · 12.5 MB · Windows 10/11 · <span data-en="Administrator required" data-ar="يتطلب صلاحيات المسؤول">Administrator required</span></p>
+        </div>
+      </div>
+
+      <div class="app-mock" aria-hidden="true">
+        <div class="mock-titlebar">
+          <span class="mock-dot"></span><span class="mock-dot"></span><span class="mock-dot"></span>
+          <span class="mock-title mono">Blocker</span>
+        </div>
+        <div class="mock-body">
+          <div class="mock-side">
+            <div class="mock-nav selected">Dashboard</div>
+            <div class="mock-nav">Why We Built It</div>
+            <div class="mock-nav">About Us</div>
+            <div class="mock-ver mono">v1.0</div>
+          </div>
+          <div class="mock-main">
+            <div class="mock-status"><i class="mock-dot-on"></i><span>Protection Active</span></div>
+            <div class="mock-btns">
+              <span class="mock-btn-a">Activate</span>
+              <span class="mock-btn-b">Deactivate</span>
+            </div>
+            <div class="mock-list">
+              <span class="mono">*****.com</span>
+              <span class="mono">*****.net</span>
+              <span class="mono">*****.org</span>
+              <span class="mono">*****.info</span>
+              <span class="mono">*****.xxx</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="release" id="release">
+    <div class="sec-head">
+      <p class="eyebrow">// release</p>
+      <h2>Blocker 1.0</h2>
+    </div>
+    <div class="release-grid">
+      <table class="spec">
+        <tr><th data-en="Platform" data-ar="النظام">Platform</th><td data-en="Windows 10 / 11 (x64)" data-ar="ويندوز 10 / 11">Windows 10 / 11 (x64)</td></tr>
+        <tr><th data-en="Privileges" data-ar="الصلاحيات">Privileges</th><td data-en="Administrator (required)" data-ar="مسؤول (مطلوب)">Administrator (required)</td></tr>
+        <tr><th data-en="Interface" data-ar="الواجهة">Interface</th><td data-en="Arabic / English" data-ar="عربي / إنجليزي">Arabic / English</td></tr>
+        <tr><th data-en="Size" data-ar="الحجم">Size</th><td>12.5 MB <span data-en="(zip)" data-ar="(مضغوط)">(zip)</span></td></tr>
+        <tr><th data-en="License" data-ar="الترخيص">License</th><td data-en="Free, forever" data-ar="مجاني، للأبد">Free, forever</td></tr>
+      </table>
+      <div class="rel-side">
+        <p class="lab" data-en="Verification" data-ar="التحقق">Verification</p>
+        <p class="sha mono">SHA256<br>f310d7b008aad95f3737c9ca90cbf68659a4c67a558ddc2e1cf56f4babcdecb6</p>
+        <p class="lab" data-en="Changelog — v1.0 (2026-09-05)" data-ar="سجل التغييرات — v1.0 (2026-09-05)">Changelog — v1.0 (2026-09-05)</p>
+        <ul class="changelog">
+          <li data-en="Modern dashboard with sidebar navigation" data-ar="لوحة تحكم عصرية مع شريط جانبي">Modern dashboard with sidebar navigation</li>
+          <li data-en="Bilingual pages: Why &amp; About" data-ar="صفحات ثنائية اللغة: لماذا ومن نحن">Bilingual pages: Why &amp; About</li>
+          <li data-en="New shield icon" data-ar="أيقونة درع جديدة">New shield icon</li>
+          <li data-en="onedir build to reduce false positives" data-ar="بناء onedir لتقليل النتائج الكاذبة">onedir build to reduce false positives</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="why" id="why">
+    <div class="sec-head">
+      <p class="eyebrow">// why</p>
+      <h2 data-en="Why it exists" data-ar="لماذا وُجد؟">Why it exists</h2>
+    </div>
+    <div class="two-col">
+      <p data-en="Because a DNS-only filter is one wrong setting away from being useless. A browser with Secure DNS, or any VPN, resolves names outside your filter — and the block silently stops working." data-ar="لأن فلترة DNS وحدها تفقد قيمتها بأي إعداد خاطئ. متصفح مع Secure DNS، أو أي VPN، يحل الأسماء خارج فلترتك — ويتوقف الحجب بصمت.">Because a DNS-only filter is one wrong setting away from being useless. A browser with Secure DNS, or any VPN, resolves names outside your filter — and the block silently stops working.</p>
+      <p data-en="The hosts file sits below all of that. The operating system checks it before any name resolution, so the block holds no matter what tunnels or resolvers you use. That is the whole point of two layers." data-ar="ملف hosts يقع تحت كل ذلك. نظام التشغيل يفحصه قبل أي تحليل للاسم، فيبقى الحجب صامداً مهما كانت الأنفاق أو الخوادم. هذا هو جوهر الطبقتين.">The hosts file sits below all of that. The operating system checks it before any name resolution, so the block holds no matter what tunnels or resolvers you use. That is the whole point of two layers.</p>
+    </div>
+  </section>
+
+  <section class="how" id="how">
+    <div class="sec-head">
+      <p class="eyebrow">// usage</p>
+      <h2 data-en="Three steps" data-ar="ثلاث خطوات">Three steps</h2>
+    </div>
+    <ol class="steps">
+      <li><span class="mono">Blocker.zip</span> — <span data-en="extract, keep the folder intact" data-ar="فكّ الضغط، وأبقِ المجلد كما هو">extract, keep the folder intact</span></li>
+      <li data-en="run Blocker.exe, accept the Administrator prompt" data-ar="شغّل Blocker.exe، ووافق على طلب المسؤول">run Blocker.exe, accept the Administrator prompt</li>
+      <li data-en="press Activate — protection is live" data-ar="اضغط Activate — الحماية مفعّلة">press Activate — protection is live</li>
+    </ol>
+    <p class="note" data-en="Blocker.exe must stay next to its _internal folder; moving it alone breaks the app." data-ar="يجب أن يبقى Blocker.exe بجانب مجلد _internal؛ نقله وحده يعطل التطبيق.">Blocker.exe must stay next to its _internal folder; moving it alone breaks the app.</p>
+  </section>
+
+  <section class="faq" id="faq">
+    <div class="sec-head">
+      <p class="eyebrow">// faq</p>
+      <h2 data-en="Questions" data-ar="أسئلة">Questions</h2>
+    </div>
+    <details>
+      <summary data-en="Does it collect data?" data-ar="هل يجمع بيانات؟">Does it collect data?</summary>
+      <p data-en="No. Everything runs locally; the app never opens a connection." data-ar="لا. كل شيء يعمل محلياً، والتطبيق لا يفتح أي اتصال.">No. Everything runs locally; the app never opens a connection.</p>
+    </details>
+    <details>
+      <summary data-en="Can a VPN attack the block?" data-ar="هل يخترق الـVPN الحجب؟">Can a VPN attack the block?</summary>
+      <p data-en="It can slip past the DNS layer but not the hosts layer, which the OS honors before any network call." data-ar="قد يلتف على طبقة DNS لكن ليس على طبقة hosts التي تحترم في النظام قبل أي طلب شبكة.">It can slip past the DNS layer but not the hosts layer, which the OS honors before any network call.</p>
+    </details>
+    <details>
+      <summary data-en="Why does it ask for Administrator?" data-ar="لماذا يطلب صلاحيات مسؤول؟">Why does it ask for Administrator?</summary>
+      <p data-en="Editing the hosts file and system DNS settings requires elevated rights." data-ar="تعديل ملف hosts وإعدادات DNS يتطلب صلاحيات مرتفعة.">Editing the hosts file and system DNS settings requires elevated rights.</p>
+    </details>
+    <details>
+      <summary data-en="Windows flags the download as a virus?" data-ar="ويندوز يضع علامة فايروس على التحميل؟">Windows flags the download as a virus?</summary>
+      <p data-en="It is a false positive common with unsigned Python-built executables. The onedir + zip build reduces it; see the Microsoft submission note in the README." data-ar="إيجابي كاذب شائع مع ملفات البايثون غير الموقعة. بناء onedir والضغط يقللانه؛ انظر ملاحظة رفع ميكروسوفت في README.">It is a false positive common with unsigned Python-built executables. The onedir + zip build reduces it; see the Microsoft submission note in the README.</p>
+    </details>
+  </section>
+
+</main>
+
+<footer>
+  <p>Blocker 1.0 <span data-en="· windows only · semver" data-ar="· ويندوز فقط · نسخ متدرج">· windows only · semver</span></p>
+  <p data-en="Free forever. No accounts. No data." data-ar="مجاني للأبد. بدون حسابات. بدون بيانات.">Free forever. No accounts. No data.</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -168,6 +168,8 @@ section {
 
 .meta { color: var(--faint); font-size: 12.5px; margin-top: 12px; }
 
+.meta-smart { color: var(--faint); font-size: 12px; margin-top: 6px; line-height: 1.5; }
+
 /* app window mock */
 .app-mock {
   border: 1px solid var(--border-strong);

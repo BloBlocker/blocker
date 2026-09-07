@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BloBlocker — Windows content filter</title>
+  <title>BloBlocker | Windows content filter</title>
   <meta name="description" content="BloBlocker 1.0: free Windows utility that blocks adult content via two independent layers (hosts + DNS). VPN-resistant, offline, no data collection.">
   <link rel="icon" type="image/png" href="assets/icon.png">
   <link rel="stylesheet" href="css/styles.css">
@@ -34,11 +34,11 @@
       <div class="hero-text">
         <p class="eyebrow" data-en="Windows utility · no account · no telemetry" data-ar="أداة ويندوز · بدون حساب · بدون تتبع">Windows utility · no account · no telemetry</p>
         <h1 data-en="Stops adult content. Two layers, one click." data-ar="يحجب المحتوى الإباحي. طبقتان، ونقرة واحدة.">Stops adult content. Two layers, one click.</h1>
-        <p class="hero-sub" data-en="BloBlocker edits your Windows hosts file and points DNS at a family-safe filter. Because both run together, a VPN can slip past the DNS layer but the hosts layer still holds." data-ar="بلو بلوكر يعدّل ملف hosts في ويندوز ويوجّه DNS إلى فلترة آمنة للعائلة. وحيث يعملان معاً، قد يتجاوز الـVPN طبقة DNS لكن طبقة hosts تبقى صامدة.">BloBlocker edits your Windows hosts file and points DNS at a family-safe filter. Because both run together, a VPN can slip past the DNS layer but the hosts layer still holds.</p>
+        <p class="hero-sub" data-en="BloBlocker works on two levels. First, it edits your Windows hosts file. Then it points your DNS at a family-safe filter. Both run together, so a VPN that slips past the DNS layer still cannot beat the hosts file." data-ar="بلو بلوكر يعمل على مستويين. أولاً يعدّل ملف hosts في ويندوز، ثم يوجّه إعدادات DNS إلى فلترة آمنة للعائلة. والمستويان يعملان معاً، فحتى لو تجاوز الـVPN طبقة DNS، يبقى ملف hosts صامداً.">BloBlocker works on two levels. First, it edits your Windows hosts file. Then it points your DNS at a family-safe filter. Both run together, so a VPN that slips past the DNS layer still cannot beat the hosts file.</p>
         <div class="cta">
           <a class="btn" href="downloads/BloBlocker-Setup.exe" download data-en="Download BloBlocker-Setup.exe" data-ar="تحميل BloBlocker-Setup.exe">Download BloBlocker-Setup.exe</a>
           <p class="meta"><span class="mono">BloBlocker-Setup.exe</span> · 10.9 MB · Windows 10/11 · <span data-en="Administrator required" data-ar="يتطلب صلاحيات المسؤول">Administrator required</span></p>
-          <p class="meta-smart" data-en="SmartScreen may warn &quot;unknown publisher&quot; — it is a new unsigned installer, not malware. Verify the SHA256 on this page." data-ar="قد ينبّهك SmartScreen بعبارة &quot;ناشر غير معروف&quot; — هو مثبّت جديد غير موقّع، وليس برنامجاً خبيثاً. تحقق من SHA256 في هذه الصفحة.">SmartScreen may warn "unknown publisher" — it is a new unsigned installer, not malware. Verify the SHA256 on this page.</p>
+          <p class="meta-smart" data-en="SmartScreen may warn you that the publisher is unknown. That is normal for a new, unsigned installer, and it does not mean the app is harmful." data-ar="قد ينبّهك SmartScreen أن الناشر غير معروف. هذا طبيعي لأي مثبّت جديد غير موقّع، ولا يعني أن التطبيق ضار.">SmartScreen may warn you that the publisher is unknown. That is normal for a new, unsigned installer, and it does not mean the app is harmful.</p>
         </div>
       </div>
 
@@ -88,8 +88,8 @@
       </table>
       <div class="rel-side">
         <p class="lab" data-en="Verification" data-ar="التحقق">Verification</p>
-        <p class="sha mono">SHA256<br>37a2f92601b75e45226b5d8230cf873f7eb6d81deaee170603bf0848393d858d</p>
-        <p class="lab" data-en="Changelog — v1.0 (2026-09-05)" data-ar="سجل التغييرات — v1.0 (2026-09-05)">Changelog — v1.0 (2026-09-05)</p>
+        <p class="sha mono">SHA256<br>fed399716a2c9d09cd1fcc4fbc921b474e9e5ba2f68a50ecbad670f30984d426</p>
+        <p class="lab" data-en="Changelog: v1.0 (2026-09-05)" data-ar="سجل التغييرات: v1.0 (2026-09-05)">Changelog: v1.0 (2026-09-05)</p>
         <ul class="changelog">
           <li data-en="Modern dashboard with sidebar navigation" data-ar="لوحة تحكم عصرية مع شريط جانبي">Modern dashboard with sidebar navigation</li>
           <li data-en="Bilingual pages: Why &amp; About" data-ar="صفحات ثنائية اللغة: لماذا ومن نحن">Bilingual pages: Why &amp; About</li>
@@ -107,8 +107,8 @@
       <h2 data-en="Why it exists" data-ar="لماذا وُجد؟">Why it exists</h2>
     </div>
     <div class="two-col">
-      <p data-en="Because a DNS-only filter is one wrong setting away from being useless. A browser with Secure DNS, or any VPN, resolves names outside your filter — and the block silently stops working." data-ar="لأن فلترة DNS وحدها تفقد قيمتها بأي إعداد خاطئ. متصفح مع Secure DNS، أو أي VPN، يحل الأسماء خارج فلترتك — ويتوقف الحجب بصمت.">Because a DNS-only filter is one wrong setting away from being useless. A browser with Secure DNS, or any VPN, resolves names outside your filter — and the block silently stops working.</p>
-      <p data-en="The hosts file sits below all of that. The operating system checks it before any name resolution, so the block holds no matter what tunnels or resolvers you use. That is the whole point of two layers." data-ar="ملف hosts يقع تحت كل ذلك. نظام التشغيل يفحصه قبل أي تحليل للاسم، فيبقى الحجب صامداً مهما كانت الأنفاق أو الخوادم. هذا هو جوهر الطبقتين.">The hosts file sits below all of that. The operating system checks it before any name resolution, so the block holds no matter what tunnels or resolvers you use. That is the whole point of two layers.</p>
+      <p data-en="A filter that only uses DNS stops working the moment something goes around it. A browser with Secure DNS, or any VPN, resolves names on its own, and the block quietly disappears." data-ar="الفلترة التي تعتمد على DNS فقط تنتهي بمجرد أي تجاوز. فالمتصفح الذي يستخدم Secure DNS أو أي VPN يحلّ الأسماء من خارج الفلترة، فيختفي الحجب بلا إنذار.">A filter that only uses DNS stops working the moment something goes around it. A browser with Secure DNS, or any VPN, resolves names on its own, and the block quietly disappears.</p>
+      <p data-en="The hosts file sits below all of that. Windows checks it before any name resolution, so the block holds no matter which browser, VPN, or resolver you use. This is why BloBlocker combines both layers." data-ar="أما ملف hosts فهو أعمق من كل ذلك. يفحصه ويندوز قبل أي تحليل للاسم، فيبقى الحجب صامداً مهما كان المتصفح أو الـVPN أو الخادم. لهذا يجمع بلو بلوكر الطبقتين معاً.">The hosts file sits below all of that. Windows checks it before any name resolution, so the block holds no matter which browser, VPN, or resolver you use. This is why BloBlocker combines both layers.</p>
     </div>
   </section>
 
@@ -118,11 +118,11 @@
       <h2 data-en="Three steps" data-ar="ثلاث خطوات">Three steps</h2>
     </div>
     <ol class="steps">
-      <li><span class="mono">BloBlocker-Setup.exe</span> — <span data-en="run the installer, install to Program Files" data-ar="شغّل المثبّت، ويُثبَّت في Program Files">run the installer, install to Program Files</span></li>
-      <li data-en="launch BloBlocker from the new desktop icon, accept the Administrator prompt" data-ar="شغّل BloBlocker من أيقونة سطح المكتب الجديدة، ووافق على طلب المسؤول">launch BloBlocker from the new desktop icon, accept the Administrator prompt</li>
-      <li data-en="press Activate — protection is live" data-ar="اضغط Activate — الحماية مفعّلة">press Activate — protection is live</li>
+      <li data-en="Run the installer &quot;BloBlocker-Setup.exe&quot; and install to Program Files" data-ar="شغّل المثبّت &quot;BloBlocker-Setup.exe&quot; واسمح له بالتثبيت في Program Files">Run the installer "BloBlocker-Setup.exe" and install to Program Files</li>
+      <li data-en="open BloBlocker from the desktop icon and accept the Administrator prompt" data-ar="افتح BloBlocker من أيقونة سطح المكتب ووافق على طلب المسؤول">open BloBlocker from the desktop icon and accept the Administrator prompt</li>
+      <li data-en="press Activate. Protection is now live" data-ar="اضغط Activate. الحماية الآن مفعّلة">press Activate. Protection is now live</li>
     </ol>
-    <p class="note" data-en="The installer adds a desktop shortcut, a Start-menu entry, and an uninstaller in Apps &amp; Features." data-ar="المثبّت يضيف أيقونة سطح مكتب، واختصار قائمة ابدأ، وأداة إزالة تثبيت ضمن التطبيقات.">The installer adds a desktop shortcut, a Start-menu entry, and an uninstaller in Apps &amp; Features.</p>
+    <p class="note" data-en="The installer creates a desktop shortcut, a Start menu entry, and an uninstaller you can find in Apps &amp; Features." data-ar="ينشئ المثبّت أيقونة على سطح المكتب، واختصاراً في قائمة ابدأ، وأداة إزالة تثبيت تجدها في قائمة التطبيقات.">The installer creates a desktop shortcut, a Start menu entry, and an uninstaller you can find in Apps &amp; Features.</p>
   </section>
 
   <section class="faq" id="faq">
@@ -132,11 +132,11 @@
     </div>
     <details>
       <summary data-en="Does it collect data?" data-ar="هل يجمع بيانات؟">Does it collect data?</summary>
-      <p data-en="No. Everything runs locally; the app never opens a connection." data-ar="لا. كل شيء يعمل محلياً، والتطبيق لا يفتح أي اتصال.">No. Everything runs locally; the app never opens a connection.</p>
+      <p data-en="No. Everything runs on your device and the app never makes a connection." data-ar="لا. كل شيء يعمل على جهازك، والتطبيق لا يفتح أي اتصال.">No. Everything runs on your device and the app never makes a connection.</p>
     </details>
     <details>
-      <summary data-en="Can a VPN attack the block?" data-ar="هل يخترق الـVPN الحجب؟">Can a VPN attack the block?</summary>
-      <p data-en="It can slip past the DNS layer but not the hosts layer, which the OS honors before any network call." data-ar="قد يلتف على طبقة DNS لكن ليس على طبقة hosts التي تحترم في النظام قبل أي طلب شبكة.">It can slip past the DNS layer but not the hosts layer, which the OS honors before any network call.</p>
+      <summary data-en="Can a VPN bypass the block?" data-ar="هل يخترق الـVPN الحجب؟">Can a VPN bypass the block?</summary>
+      <p data-en="It can get past the DNS layer, but not the hosts layer. Windows always checks the hosts file first, before any network call." data-ar="قد يتجاوز طبقة DNS لكنه لا يتجاوز طبقة hosts، لأن ويندوز يفحص ملف hosts أولاً قبل أي طلب شبكة.">It can get past the DNS layer, but not the hosts layer. Windows always checks the hosts file first, before any network call.</p>
     </details>
     <details>
       <summary data-en="Why does it ask for Administrator?" data-ar="لماذا يطلب صلاحيات مسؤول؟">Why does it ask for Administrator?</summary>
@@ -144,15 +144,15 @@
     </details>
     <details>
       <summary data-en="Windows flags the download as a virus?" data-ar="ويندوز يضع علامة فايروس على التحميل؟">Windows flags the download as a virus?</summary>
-      <p data-en="It is a false positive common with unsigned Python-built executables. The installer-based build reduces it; see the Microsoft submission note in the README." data-ar="إيجابي كاذب شائع مع ملفات البايثون غير الموقعة. البناء عبر مثبّت يقللانه؛ انظر ملاحظة رفع ميكروسوفت في README.">It is a false positive common with unsigned Python-built executables. The installer-based build reduces it; see the Microsoft submission note in the README.</p>
+      <p data-en="This is a false positive that shows up with unsigned Python-built executables. The installer is new, so Windows has not learned to trust it yet. You can report it to Microsoft as a false positive; see the README for details." data-ar="هذا تنبيه خاطئ يظهر مع برامج البايثون غير الموقعة. المثبّت جديد ولم يتعلّم ويندوز الثقة به بعد. يمكنك إبلاغ ميكروسوفت أنه تنبيه خاطئ؛ انظر التفاصيل في README.">This is a false positive that shows up with unsigned Python-built executables. The installer is new, so Windows has not learned to trust it yet. You can report it to Microsoft as a false positive; see the README for details.</p>
     </details>
     <details>
-      <summary data-en="SmartScreen says &quot;unknown app&quot; — is it safe?" data-ar="SmartScreen يقول &quot;تطبيق غير معروف&quot; — هل هو آمن؟">SmartScreen says "unknown app" — is it safe?</summary>
-      <p data-en="Yes. The installer is simply not digitally signed, and SmartScreen treats every new unsigned installer as unknown until it earns reputation from downloads. Verify the SHA256 hash above matches the file you downloaded, then continue." data-ar="نعم. المثبّت فقط غير موقّع رقمياً، وSmartScreen يعتبر أي مثبّت جديد غير موقّع &quot;غير معروف&quot; حتى يكتسب سمعة من التنزيلات. تحقق أن قيمة SHA256 أعلاه تطابق الملف الذي حمّلته، ثم تابع.">Yes. The installer is simply not digitally signed, and SmartScreen treats every new unsigned installer as unknown until it earns reputation from downloads. Verify the SHA256 hash above matches the file you downloaded, then continue.</p>
+      <summary data-en="SmartScreen says &quot;unknown app&quot;. Is it safe?" data-ar="SmartScreen يقول &quot;تطبيق غير معروف&quot;. هل هو آمن؟">SmartScreen says "unknown app". Is it safe?</summary>
+      <p data-en="Yes. The installer has no digital signature yet, so Windows treats it as unknown until it earns trust from downloads. To continue, click &quot;More info&quot;, then &quot;Run anyway&quot;." data-ar="نعم. المثبّت لا يحمل توقيعاً رقمياً بعد، فيعتبره ويندوز غير معروف حتى يكتسب الثقة من التنزيلات. للمتابعة اضغط &quot;مزيد من المعلومات&quot; ثم &quot;تشغيل على أية حال&quot;.">Yes. The installer has no digital signature yet, so Windows treats it as unknown until it earns trust from downloads. To continue, click "More info", then "Run anyway".</p>
       <ol>
         <li data-en="Click &quot;More info&quot; on the warning window" data-ar="اضغط &quot;مزيد من المعلومات&quot; في نافذة التحذير">Click "More info" on the warning window</li>
         <li data-en="Click &quot;Run anyway&quot;" data-ar="اضغط &quot;تشغيل على أية حال&quot;">Click "Run anyway"</li>
-        <li data-en="Complete the install — a desktop icon appears" data-ar="أكمل التثبيت — ستظهر أيقونة على سطح المكتب">Complete the install — a desktop icon appears</li>
+        <li data-en="The install finishes and a desktop icon appears" data-ar="ينتهي التثبيت وتظهر أيقونة سطح المكتب">The install finishes and a desktop icon appears</li>
       </ol>
     </details>
   </section>

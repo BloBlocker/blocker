@@ -166,6 +166,21 @@ section {
 
 .cta .btn:hover { background: var(--accent-dark); border-color: var(--accent-dark); }
 
+.cta .btn-sec {
+  display: inline-block;
+  background: transparent;
+  color: var(--accent);
+  font-size: 14px;
+  font-weight: 600;
+  padding: 12px 18px;
+  border-radius: 4px;
+  border: 1px solid var(--border-strong);
+  margin-left: 10px;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.cta .btn-sec:hover { background: var(--bg-hover, var(--sel)); border-color: var(--accent); }
+
 .meta { color: var(--faint); font-size: 12.5px; margin-top: 12px; }
 
 .meta-smart { color: var(--faint); font-size: 12px; margin-top: 6px; line-height: 1.5; }
